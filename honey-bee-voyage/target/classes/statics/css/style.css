@@ -1,0 +1,276 @@
+.pozadina{
+	background-color:white;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Anton', sans-serif !important;
+	text-align:center;
+}
+.centar{
+	text-align:center;
+}
+.navigacijaPozadina{
+    font-size: 1.5em;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color:black;
+    border-top: 3px solid transparent;
+}
+.linijaIznadAktivnog{
+    border-top: 3px solid white !important;
+}
+a.nav-item:hover{
+    border-top: 3px solid white !important;
+}
+a.nav-item{
+    border-top: 3px solid transparent;
+}
+.navbar-nav a{
+	color:#05386B !important;
+	opacity:1;
+}
+.article{
+	background-color:#5CDB95;
+}
+.article p{
+	font-family:'Roboto',sans-serif;
+	color:black;
+}
+.logout-submit-btn{
+	background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.inline-elements{
+	display: inline;
+}
+.navbar {
+	background-color:  #e6e6ff;
+	border-bottom:1px solid #05386B;
+}
+
+.form-background {
+	background-color:rgba(255,255,255,0.5);
+	border:2px solid black;
+}
+
+.dugme {
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 0%;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: black;
+	text-decoration: none;
+	padding: 1%;
+	font-size: 1.4em;
+}
+
+.dugme:hover {
+	text-decoration: none;
+	background-color: green;
+	color: white;
+}
+
+.dugme-cancel{
+	background-color: transparent;
+	border: 1px solid red;
+	border-radius: 0%;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: red;
+	text-decoration: none;
+	padding: 1%;
+	font-size: 1.4em;
+}
+.dugme-cancel:hover{
+	text-decoration: none;
+	background-color: red;
+	color: white;
+}
+.ar-icons{
+	color:blue;
+}
+.ar-icons:hover{
+	color:white;
+}
+.anton-font{
+	font-family: 'Anton', sans-serif;
+}
+.centar{
+	text-align:center;
+}
+.evropska-pozadina{
+	background-image:url('webapp/WEB-INF/images/europe.jpg');
+}
+.nav-font{
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+.smestaj{
+	font-family: 'Anton', sans-serif;
+	text-align:centar;
+}
+.kreveti{
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+.siva-pozadina{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	background-color:lightgray;
+	font-weight:bold;
+}
+.zuti-kvadratic{
+	background-color:lightyellow;
+	font-family: 'Roboto',sans-serif;
+}
+
+p.dugmence span#a {
+  display: inline;
+}
+
+p.dugmence:hover span#a {
+  display: none;
+}
+
+p.dugmence span#b {
+  display: none;
+}
+
+p.dugmence:hover span#b {
+  display: inline;
+  background-color:lightgreen;
+  cursor:pointer;
+}
+.atrakcija-btn{
+	border-radius:0% !important;
+	border:1px solid black !important;
+	background-color:#05386B !important;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	padding:2% !important;
+	font-size:1.2em !important;
+	color:white;
+}
+.atrakcija-btn:hover{
+	background-color:white !important;
+	color:#05386B !important;
+}
+.rezervacije-div{
+	background-color:lightblue;
+	border:1px solid black;
+}
+.stavka-rezervacije{
+	border-bottom: 1px solid black;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+.popunjeno-btn{
+	background-color: grey;
+	border: 1px solid black;
+	border-radius: 0%;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: white;
+	text-decoration: none;
+	padding: 1%;
+	font-size: 1.4em;
+}
+.pozadina{
+	background-color: #e6e6ff;
+}
+.relativna-pozicija{
+	position:relative;
+	text-align:center;
+	text-overflow:hidden;
+}
+.dno-slike{
+	position:absolute;
+	bottom:40%;
+	left:0;
+	right:0;
+	font-family: 'Lobster', sans-serif;
+	background-color:rgba(255,255,255,0.5);
+	font-size:3em;
+	width:100%;
+}
+p{
+	font-family: 'Rajdhani', sans-serif !important;
+	font-weight:bold;
+	font-size:1.2em;
+}
+p.stavke{
+	border: 1px solid #05386B;
+	color:#05386B;
+	border-radius:0%;
+	width:100%;
+}
+p input{
+	font-size:1.1em;
+	font-family: 'Roboto',sans-serif;
+}
+.stavke2{
+	border:2px solid #05386B;
+	color:#05386B;
+	border-radius:0%;
+	width:100%;
+	padding:2%;
+}
+.footerP{
+    background-color: black;
+    padding:1%;
+    margin-top:2%;
+}
+.kopirajt{
+    font-size: 2em;
+}
+.footFont{
+	color:white;
+	font-family: 'Saira Extra Condensed', sans-serif;
+}
+.footIkone{
+	color:white;
+	font-size: 3em;
+    text-align: center;
+}
+.footIkone:hover{
+	color:#cc99ff;
+}
+.smestaj{
+	background-color:#05386B;
+	color:white;
+	text-align:center;
+	display: flex;
+	align-items: center;
+	font-family:'Anton', sans-serif;
+}
+.kreveti{
+	background-color:black;
+	color:white;
+}
+.bela-pozadina{
+	background-color:white;
+	color:black;
+}
+.opcije{
+	background-color:#05386B;
+	text-align:center;
+	display: flex;
+	align-items: center;
+	border:2px solid black;
+	padding:3%;
+}
+.opcije:hover{
+	background-color:white;
+	border:2px solid #05386B;
+}
+.opcije:hover>h1{
+	color:#05386B;
+}
+.opcije>h1{
+	font-family: 'Saira Extra Condensed', sans-serif !important;
+	color:white;
+}
+.neaktivan-link {
+   pointer-events: none;
+   cursor: default;
+}
+.notifikacija{
+	color:#05386B;
+	background-color:white;
+	font-size:1.5em;
+}
